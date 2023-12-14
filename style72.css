@@ -1,0 +1,109 @@
+body{
+/*  background-image:url('yello017.jpg'); */
+  background-attachment:fixed;
+  font: 10pt Verdana,Tahoma,Arial,sans-serif;
+  background-color:lightYellow;
+  }
+a{
+  text-decoration:none;
+  color: blue;
+  }
+label{
+  width:100px;
+  display:block;
+  float:left;
+  }
+#login{
+  width:100px;
+}
+#heslo{
+  width:100px;
+}
+.hlav2{
+  width:600px;
+  margin-left:auto; margin-right:auto;
+  }
+.nadpis{
+  font: bold 12pt Tahoma,Arial,sans-serif;
+  color: #000099;
+  text-align: center;}
+.stat
+  {font: 8pt Tahoma,Arial,sans-serif;
+  text-align: center;}
+.oznameni {
+  text-align:center;
+  border: 1px outset #FF0000;
+  box-shadow: 5px 5px 10px #808080;
+  background-image: linear-gradient(#ff8000, yellow);
+  border-radius: 5px;
+  padding: 10px;
+  }
+.formlogin {
+  padding-top:100px;
+  text-align:center;
+  width:260px;
+  margin-left:auto; margin-right:auto;
+  }
+
+/***** styl pro hlavní tabulku s daty *****/
+.obal {
+  width:700px;
+  margin-left:auto;margin-right:auto;
+  background-color:lightYellow;
+  }
+.stat1 {
+  float:left;
+  padding:5px 10px 5px 10px;
+  }
+.stat2 {
+  float:right;
+  padding:5px 10px 5px 10px;
+  }
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-right:auto;
+  margin-left:auto;
+  }
+table, td, th{
+  border:1px solid darkGray;
+  }
+th {
+  background-color:maroon;
+  color:lightYellow;
+  }
+td, th{
+  padding: 0px 10px 0px 10px;
+  }
+.rowano {
+  background-color:lightgreen;
+  }
+.rowne {
+  background-color:lightSalmon;
+  }
+.rowneodpovedel {
+  background-color:lightGray;
+  }
+.boxano {
+  width:50px;
+  margin-left:auto; margin-right:auto;
+  background-color:green;
+  color:white;
+/*  background-image: linear-gradient(to right, blue, green, yellow);*/
+  text-align:center;
+  cursor:default;
+  border-radius: 5px;
+  }
+.boxne {
+  width:50px;
+  margin-left:auto; margin-right:auto;
+  background-color:red; color:white;
+  text-align:center;
+  cursor:default;
+  border-radius: 5px;
+  }
+.boxneodpovedel {
+  margin-left:auto; margin-right:auto;
+  text-align:center;
+  cursor:default;
+  }
